@@ -11,9 +11,7 @@ export default class Card extends Component{
                         <img src={require('../../img/photo.jpg')} alt="展示头像" />
                     </figure>
                     <div className='main_rt'>
-                        <div className='download_resume'>
-                            <a href={require('../../img/1层.jpg')} download >下载简历</a>
-                        </div>
+                        <a href={require('../../img/1层.jpg')} download className='download_resume'>下载简历</a>
                         <span className="welcome">
                             Hello <span className="triangle"></span>
                         </span>

@@ -22,6 +22,10 @@
             .main_rt{
                 width: 470px;
                 margin-left: 65px;
+                position: relative;
+                a.download_resume{
+                    display: none;                
+                }
                 .welcome{
                     display: inline-block;
                     vertical-align: middle;

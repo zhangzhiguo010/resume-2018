@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/1层.d6bb10c6.jpg"
   },
   {
-    "revision": "5eeab621c7706e03514b",
-    "url": "/resume-2018/build/static/css/main.4f91701f.chunk.css"
+    "revision": "8bea8bda5e14c24c35d4",
+    "url": "/resume-2018/build/static/css/main.0071b2d7.chunk.css"
   },
   {
     "revision": "4ae039ad464039a2b7a1",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/photo.c44dce0a.jpg"
   },
   {
-    "revision": "5eeab621c7706e03514b",
-    "url": "/resume-2018/build/static/js/main.5eeab621.chunk.js"
+    "revision": "8bea8bda5e14c24c35d4",
+    "url": "/resume-2018/build/static/js/main.8bea8bda.chunk.js"
   },
   {
     "revision": "bf6e10c6bffa08e6772fe41939d1aab0",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/4层.053654b5.jpg"
   },
   {
-    "revision": "6844dbec973de3ac87d82a68b53351c0",
+    "revision": "d33d6c7126d1ff272b3fa6714f244768",
     "url": "/resume-2018/build/index.html"
   }
 ];
