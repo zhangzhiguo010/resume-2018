@@ -1,0 +1,89 @@
+@media print{
+    .card_wrapper{
+        border-radius: 3px;
+        overflow: hidden;
+        margin-bottom: 40px;
+        padding: 30px 10px 0;
+        main{
+            widows: 100%;
+            padding: 20px;
+            background: #fff;
+            display: flex;
+    
+            .main_lf{
+                display: inline-block;
+                vertical-align: middle;
+                width: 350px;
+                img{
+                    width: 100%;
+                    height: 280px;
+                }
+            }
+            .main_rt{
+                width: 470px;
+                margin-left: 65px;
+                .welcome{
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 16px;
+                    line-height: 22px;
+                    padding: 4px 15px;
+                    color: white;
+                    background: #e6686a;
+                    margin-bottom: 10px;
+                    position: relative;
+                    .triangle{
+                        display: block;
+                        width: 0;
+                        border: 10px solid transparent;
+                        border-left-color: #e6686a;
+                        border-top-width: 0px;
+                        position: absolute;
+                        left: 4px;
+                        top: 100%;
+                    }
+                }
+                .myName{
+                    margin-top: 10px;
+                }
+                .myIntroduce{}
+                hr{
+                    height: 0;
+                    border: none;
+                    border-top: 1px solid #dedede;
+                    margin: 15px 0;
+                }
+                dl{
+                    display: flex;
+                    flex-wrap: wrap;
+                    dt{
+                        // border: 1px solid blue;
+                        width: 30%;
+                        padding: 4px 0;
+                        font-weight: bold;
+                    }
+                    dd{
+                        // border: 1px solid orange;
+                        width: 70%;
+                        padding: 4px 0;
+                        color: #9da0a7;
+                    }
+                }
+    
+            }
+        }
+        footer{
+            text-align: center;
+            background: #e6686a;
+            a{
+                display: inline-block;
+                padding: 22px 0;
+                margin: 0 20px;
+                .iconfont{
+                    font-size: 28px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@media print{
+    .topNavBar_wrapper{
+        padding: 23px 16px;
+        width: 100%;
+        background: url(../../img/topBarBgImg.jpg) no-repeat center;
+        filter: brightness(.9);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #b7b7b7;
+
+        .logo{
+            font-size: 24px;
+            font-family: 'Arial Black';
+            .resumeHint{
+                margin-right: 8px;
+                color: #e6686a;
+            }
+            .nameHint{
+                color: #9a9da2;
+            }
+        }
+        .nav{
+            display: flex;
+            li{
+                margin: 0 8px;
+                padding: 0 12px;
+                position: relative;
+                a{
+                    display: block;
+                    font-size: 12px;
+                    line-height: 22px;
+                    height: 22px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }   
+}
+
+

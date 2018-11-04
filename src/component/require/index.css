@@ -1,0 +1,67 @@
+@media screen{
+    .require_wrapper{
+        width: 100%;
+        margin-top: 80px;
+        h2{
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        ul.header{
+            background: #ffffff;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+            padding: 40px;
+            li.headLi{
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                .headli_lf{
+                    flex-basis: 38%;
+                    padding-left: 10px;
+                }
+                .headli_rt{
+                    flex-grow: 1;
+                    padding-left: 10px;
+                }
+            }
+            li:nth-child(2n){
+                background: #ededed;
+            }
+            li:nth-child(2n+1){
+                background: #ffffff;
+            }
+        }
+    }
+    
+    .requireItem{
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        .keyWord{
+            font-weight: bold;
+            flex-basis: 16%;
+            flex-shrink: 0;
+            color: #ffffff;
+            display: flex;
+            padding-left: 10px;
+        }
+        .companyRequire{
+            flex-basis: 22%;
+            flex-shrink: 0;
+            padding: 0 15px;
+            border-right: 1px solid rgba(0,0,0,0.1);
+        }
+        .mySituation{
+            flex-grow: 1;
+            padding: 0 15px;
+        }
+    }
+}

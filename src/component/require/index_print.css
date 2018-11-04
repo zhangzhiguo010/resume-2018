@@ -1,0 +1,67 @@
+@media print{
+    .require_wrapper{
+        width: 100%;
+        padding-bottom: 40px;
+        h2{
+            font-weight: 600;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        ul.header{
+            background: #ffffff;
+            border-radius: 5px;
+            overflow: hidden;
+            padding: 10px;
+            li.headLi{
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                .headli_lf{
+                    flex-basis: 38%;
+                    padding-left: 10px;
+                }
+                .headli_rt{
+                    flex-grow: 1;
+                    padding-left: 10px;
+                }
+            }
+            li:nth-child(2n){
+                background: #ededed;
+            }
+            li:nth-child(2n+1){
+                background: #ffffff;
+            }
+        }
+    }
+    
+    .requireItem{
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        .keyWord{
+            font-weight: bold;
+            flex-basis: 16%;
+            flex-shrink: 0;
+            color: #ffffff;
+            display: flex;
+            padding-left: 10px;
+        }
+        .companyRequire{
+            flex-basis: 22%;
+            flex-shrink: 0;
+            padding: 0 15px;
+            border-right: 1px solid rgba(0,0,0,0.1);
+        }
+        .mySituation{
+            flex-grow: 1;
+            padding: 0 15px;
+        }
+    }
+}

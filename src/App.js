@@ -1,19 +1,28 @@
 import React, {Component} from 'react'
-import Child from './Child'
-import {Provider} from 'react-redux'
-import store from './data/store'
+import TopNavBar from './component/topNavBar/index'
+import Card from './component/card/index'
+import Require from './component/require/index'
+import WorkItem from './component/workItem/index'
+import SkillChart from './component/skillChart/index'
+import Message from './component/message/index'
+import './App.css'
+import './App_print.css'
 
-class App extends Component{
+
+export default class App extends  Component{
     render(){
         return (
-            <Provider store={store}>
-                <div>
-                    这里是App组件
-                    <Child />
+            <div className='app_wrapper'>
+                <TopNavBar />
+                <figure className='banner'></figure>
+                <div className='main'>
+                    <Card />
+                    <Require />
+                    <SkillChart />
+                    <WorkItem />
+                    <Message />
                 </div>
-            </Provider>
+            </div>
         )
     }
 }
-
-export default App

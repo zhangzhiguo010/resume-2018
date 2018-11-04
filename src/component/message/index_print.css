@@ -1,0 +1,5 @@
+@media print{
+    .message_wrapper{
+        display: none;
+    }
+}
