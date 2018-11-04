@@ -26,12 +26,12 @@ export default class Message extends Component{
             let {visitorInput} = this.state
             ev.preventDefault()
             this.state.visitorInput.trim() && save('MyResume', {message: visitorInput}).then((response)=>{
-                this.setState({
-                    visitorInput: ''
+                fetchAll('MyResume').then((response)=>{
+                    this.setState({
+                        visitorInput: '',
+                        visitorMessage: response
+                    })
                 })
-                // this.setState({
-                //     visitorMessage: this.state.visitorMessage.push(response)
-                // })
             })
         }
 
