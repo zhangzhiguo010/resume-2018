@@ -26,6 +26,23 @@
                 a.download_resume{
                     display: none;                
                 }
+                a.resume_webLink{
+                    display: inline-block;
+                    vertical-align: middle;
+                    border: 1px solid #CDCFD1;
+                    line-height: 16px;
+                    padding: 8px 20px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #3d4451;
+                    background-color: #efefef;
+                    border-radius: 2px;
+                    white-space: nowrap;
+                    position: absolute;
+                    z-index: 1;
+                    top: 54px;
+                    right: 50px;
+                }
                 .welcome{
                     display: inline-block;
                     vertical-align: middle;
