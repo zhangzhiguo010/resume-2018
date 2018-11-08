@@ -24,7 +24,7 @@ export default class WorkItem extends Component{
                     'https://zhangzhiguo010.github.io/keyboard-2018/index.html', 'https://github.com/zhangzhiguo010/keyboard-2018'
                 ],
                 [
-                    'chat聊天', '手机端即时聊天', '简介：这是一个用React框架做的简易的及时聊天小作品，目前只实现了登录注册、添加好友、实时聊天三个最基础功能，技术上用到了Redux状态管理，Router路由和redux-thunk中间件', 
+                    'chat聊天', '即时聊天', '简介：这是一个用React框架做的简易的及时聊天小作品，目前只实现了登录注册、添加好友、实时聊天三个最基础功能，技术上用到了Redux状态管理，Router路由和redux-thunk中间件', 
                     'https://zhangzhiguo010.github.io/WeChat-2018/build/index.html', 'https://github.com/zhangzhiguo010/WeChat-2018'
                 ],
                 [
