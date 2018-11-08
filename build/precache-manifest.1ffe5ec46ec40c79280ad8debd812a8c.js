@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/163music.21cc930c.jpg"
   },
   {
-    "revision": "41b268dea69df6fcde97",
+    "revision": "76b84b5ace81ba9e44eb",
     "url": "/resume-2018/build/static/css/main.a250c4c9.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/张治国 求职前端开发工程师.a0f01737.pdf"
   },
   {
-    "revision": "41b268dea69df6fcde97",
-    "url": "/resume-2018/build/static/js/main.41b268de.chunk.js"
+    "revision": "76b84b5ace81ba9e44eb",
+    "url": "/resume-2018/build/static/js/main.76b84b5a.chunk.js"
   },
   {
     "revision": "f6052f3ee40aa369cdd86fbc6b515b35",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/轮播.e90ab7ea.jpg"
   },
   {
-    "revision": "949aaad5a7eefcb6c98fb4d429c95581",
+    "revision": "83232a227aaae51403a594775a68760f",
     "url": "/resume-2018/build/index.html"
   }
 ];
