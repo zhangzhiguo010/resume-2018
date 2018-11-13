@@ -63,9 +63,9 @@ class WorkItemList extends Component{
                     <div className='outsideLink'>
                         <a href={previewLink} target='_blank' className='previewLink'>预览链接</a>
                         <a href={codeLink} target='_blank' className='codeLink'>代码链接</a>
-                        {
+                        {/* {
                             name==='163music' ? <a target='_blank' href='https://pinggu010.com/src/admin.html' className='adminPreview'>admin后台管理页预览</a> : null
-                        }
+                        } */}
                     </div>
                 </div>
             </div>
