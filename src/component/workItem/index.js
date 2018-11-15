@@ -8,15 +8,19 @@ export default class WorkItem extends Component{
         this.state = {
             workItem: [
                 [
-                    '163music', '（仿）网易云音乐', '简介：模仿移动端网易云音乐产品，分为用户页面和管理员页面。用户页面实现了歌曲播放、歌词滚动、歌曲搜索、歌单分组等；管理员页面实现了对歌曲和歌单的增删改查四大基础功能。',
+                    '163music', '（仿）网易云音乐', 
+                    '描述：这是一个音乐播放器项目，它实现了搜索歌曲、播放歌曲、播放歌词、添加歌单等功能。   '+ 
+                    '技术：使用原生JS处理DOM操作，使用MVC进行模块化，使用ES6类精简代码。   ' +
+                    '亮点：手机端播放，使用@media媒体查询做到响应式布局',
                     'https://zhangzhiguo010.github.io/163-Music/src/index.html', 'https://github.com/zhangzhiguo010/163-Music'
                 ],
                 [
-                    'canvas画板', 'canvas画板', '简介：这是一个关于canvas的简易画板，功能上实现了画画、清空画布、作品下载等功能，画笔的颜色和粗细可选，创作目的是想要了解canvas的基本使用方法，作品虽小，趣味无限，哈哈！', 
+                    'canvas画板', 'canvas画板', '描述：这是一个关于canvas的简易画板。功能上实现了画画、清空画布、作品下载等功能，画笔的颜色和粗细可选。'+
+                    '亮点：手机端和电脑端都可以使用', 
                     'https://zhangzhiguo010.github.io/drawingBoard-2018-11/build/index.html', 'https://github.com/zhangzhiguo010/drawingBoard-2018-11'
                 ],
                 [   
-                    '皮卡丘', '动态生成皮卡丘', '简介：该作品可在页面上实现代码和作品的同步展示，快中慢三档速度可手动调节。', 
+                    '皮卡丘', '动态生成皮卡丘', '描述：该作品可在页面上实现代码和作品的同步展示，快中慢三档速度可手动调节。', 
                     'https://zhangzhiguo010.github.io/pikachu-2018/build/index.html', 'https://github.com/zhangzhiguo010/pikachu-2018'
                 ],
                 [
@@ -24,7 +28,9 @@ export default class WorkItem extends Component{
                     'https://zhangzhiguo010.github.io/keyboard-2018/index.html', 'https://github.com/zhangzhiguo010/keyboard-2018'
                 ],
                 [
-                    'chat聊天', '即时聊天', '简介：这是一个用React框架做的简易的及时聊天小作品，目前只实现了登录注册、添加好友、实时聊天三个最基础功能，技术上用到了Redux状态管理，Router路由和redux-thunk中间件', 
+                    'chat聊天', '即时聊天', '描述：这是一个及时聊天的项目，功能上实现了登录、注册、添加好友、及时聊天等。  '+
+                    '技术：前端使用React框架，用到了react-redux、react-router、thunk中间件等。  '+
+                    '亮点：界面样式模仿微信客户端', 
                     'https://zhangzhiguo010.github.io/WeChat-2018/build/index.html', 'https://github.com/zhangzhiguo010/WeChat-2018'
                 ],
                 [
