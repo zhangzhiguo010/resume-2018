@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/163music.21cc930c.jpg"
   },
   {
-    "revision": "cffd2d0d9d34d043265b",
+    "revision": "9c26c433b7cd6d006e86",
     "url": "/resume-2018/build/static/css/main.a250c4c9.chunk.css"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/topBarBgImg.bf6e10c6.jpg"
   },
   {
-    "revision": "68939a38c706bde0f35f6bd2865c31cd",
-    "url": "/resume-2018/build/static/media/张治国 求职前端开发工程师.68939a38.pdf"
+    "revision": "3e71bcef7cff68a5c3efccc77de95105",
+    "url": "/resume-2018/build/static/media/张治国 求职前端开发工程师.3e71bcef.pdf"
   },
   {
-    "revision": "cffd2d0d9d34d043265b",
-    "url": "/resume-2018/build/static/js/main.cffd2d0d.chunk.js"
+    "revision": "9c26c433b7cd6d006e86",
+    "url": "/resume-2018/build/static/js/main.9c26c433.chunk.js"
   },
   {
     "revision": "f6052f3ee40aa369cdd86fbc6b515b35",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/轮播.e90ab7ea.jpg"
   },
   {
-    "revision": "0fdf21fd75462081ac20bcfd22c9bba1",
+    "revision": "8b2d7292af997403f6220ebd4abea84c",
     "url": "/resume-2018/build/index.html"
   }
 ];
