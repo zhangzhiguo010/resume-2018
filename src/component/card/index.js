@@ -17,7 +17,7 @@ export default class Card extends Component{
                             Hello <span className="triangle"></span>
                         </span>
                         <h1 className='myName'>张治国</h1>
-                        <p className='myIntroduce'>前端开发工程师</p>
+                        <p className='myIntroduce'>应聘前端开发工程师</p>
                         <hr/>
                         <dl>
                             <dt>年龄</dt>
