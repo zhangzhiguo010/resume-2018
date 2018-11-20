@@ -11,7 +11,7 @@ export default class Card extends Component{
                         <img src={require('../../img/mySelf_phpto.jpg')} alt="展示头像" />
                     </figure>
                     <div className='main_rt'>
-                        <a href={require('../../img/张治国 求职前端开发工程师.pdf')} download className='download_resume'>下载简历</a>
+                        <a href={require('../../img/简历-张治国-应聘前端开发-2018.pdf')} download className='download_resume'>下载简历</a>
                         <a href="https://zhangzhiguo010.github.io/resume-2018/build/index.html" className='resume_webLink'>在线简历，请点击！</a>
                         <span className="welcome">
                             Hello <span className="triangle"></span>
