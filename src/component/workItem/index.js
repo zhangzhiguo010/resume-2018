@@ -5,75 +5,176 @@ import './index_print.css'
 export default class WorkItem extends Component{
     constructor(props){
         super(props)
-        this.state = {
-            workItem: [
-                [
-                    '163music', '（仿）网易云音乐', 
-                    '描述：这是一个音乐播放器项目，它实现了搜索歌曲、播放歌曲、播放歌词、添加歌单等功能。   '+ 
-                    '技术：使用原生JS处理DOM操作，使用MVC进行模块化，使用ES6类精简代码。   ' +
-                    '亮点：手机端播放，使用@media媒体查询做到响应式布局',
-                    'https://zhangzhiguo010.github.io/163-Music/src/index.html', 'https://github.com/zhangzhiguo010/163-Music'
-                ],
-                [
-                    'canvas画板', 'canvas画板', '描述：这是一个关于canvas的简易画板。功能上实现了画画、清空画布、作品下载等功能，画笔的颜色和粗细可选。'+
-                    '亮点：手机端和电脑端都可以使用', 
-                    'https://zhangzhiguo010.github.io/drawingBoard-2018-11/build/index.html', 'https://github.com/zhangzhiguo010/drawingBoard-2018-11'
-                ],
-                [   
-                    '皮卡丘', '动态生成皮卡丘', '描述：该作品可在页面上实现代码和作品的同步展示，快中慢三档速度可手动调节。', 
-                    'https://zhangzhiguo010.github.io/pikachu-2018/build/index.html', 'https://github.com/zhangzhiguo010/pikachu-2018'
-                ],
-                [
-                    'keyboard', '键盘特效', '简介：这是用原生JavaScript写的一个键盘特效，点击键盘上按键，页面会自动打开，网页上键盘对应的网址可以随意编辑', 
-                    'https://zhangzhiguo010.github.io/keyboard-2018/index.html', 'https://github.com/zhangzhiguo010/keyboard-2018'
-                ],
-                [
-                    'chat聊天', '即时聊天', '描述：这是一个及时聊天的项目，功能上实现了登录、注册、添加好友、及时聊天等。  '+
-                    '技术：前端使用React框架，用到了react-redux、react-router、thunk中间件等。  '+
-                    '亮点：界面样式模仿微信客户端', 
-                    'https://zhangzhiguo010.github.io/WeChat-2018/build/index.html', 'https://github.com/zhangzhiguo010/WeChat-2018'
-                ],
-                [
-                    '轮播', '无缝轮播组件', '简介：这是用原生JavaScript封装的一个无缝轮播组件，使用者只需引入文件后调用函数并传入特定控制参数即可', 
-                    'https://zhangzhiguo010.github.io/scrollPicture-2018/index.html', 'https://github.com/zhangzhiguo010/scrollPicture-2018'
-                ]
-            ]
-        }
     }
-
     render(){
         return (
-            <div className='workItem_wrapper' id='workItem'>
+            <div className='worksList' id='work'>
                 <h2>项目作品</h2>
-                <ul>{
-                    this.state.workItem.map((item, index)=>{
-                        return <li key={index}><WorkItemList name={item[0]} title={item[1]} content={item[2]} previewLink={item[3]} codeLink={item[4]}/></li>
-                    })
-                }</ul>
-            </div>
-        )
-    }
-}
-
-class WorkItemList extends Component{
-    render(){
-        let {name, title, content, previewLink, codeLink} = this.props
-        return (
-            <div className='wil_wrapper'>
-                <figure className='wil_lf'>
-                    <img src={require(`../../img/${name}.jpg`)} alt=""/>
-                </figure>
-                <div className='wil_rt'>
-                    <h3>{title}</h3>
-                    <p>{content}</p>
-                    <div className='outsideLink'>
-                        <a href={previewLink} target='_blank' className='previewLink'>预览链接</a>
-                        <a href={codeLink} target='_blank' className='codeLink'>代码链接</a>
-                        {/* {
-                            name==='163music' ? <a target='_blank' href='https://pinggu010.com/src/admin.html' className='adminPreview'>admin后台管理页预览</a> : null
-                        } */}
-                    </div>
-                </div>
+                <ul>
+                    <li>
+                        <figure>
+                            <div className="img work1"></div>
+                            <figcaption>
+                                <h3>网易云音乐(手机端)</h3>
+                                <hr />
+                                <div className="descript">
+                                    <p>描述：</p>
+                                    <p className="descript-content">这是一个音乐播放器项目</p>
+                                    <p className="descript-content">它实现了搜索歌曲、播放歌曲、播放歌词、添加歌单等功能</p>
+                                    <p>技术：</p>
+                                    <p className="descript-content">前端：使用原生JavaScript来处理DOM操作，使用MVC框架进行模块化</p>
+                                    <p className="descript-content">后台：在七牛云存储歌曲和图片,leancloud存储歌单和歌曲名</p>
+                                    <p>亮点：</p>
+                                    <p className="descript-content">手机端播放，使用了@media媒体查询做到响应式布局</p>                               
+                                </div>
+                                <hr />
+                                <div className="works-footer">
+                                    <a href="https://pinggu010.com/src/index.html" target="_blank">
+                                        <span className="button">手机端页面</span>
+                                    </a>
+                                    {/* <a href="" target="_blank">
+                                        <span className="button">管理员页面</span>
+                                    </a> */}
+                                    <a href="https://github.com/zhangzhiguo010/163-Music" target="_blank">
+                                        <div className="button">源码链接</div>
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div className="img work2"></div>
+                            <figcaption>
+                                <h3>即时通讯(React框架)</h3>
+                                <hr />
+                                <div className="descript">
+                                    <p>描述：</p>
+                                    <p className="descript-content">这是一个即时聊天项目</p>
+                                    <p className="descript-content">它实现了登录、注册、添加好友、即时聊天等功能</p>
+                                    <p>技术：</p>
+                                    <p className="descript-content">前端：使用react框架用到React、React-redux、React-router等技术</p>
+                                    <p className="descript-content">后台：调用环信SDK提供的API来进行登录注册，添加好友，消息收发</p>
+                                    <p>亮点：</p>
+                                    <p className="descript-content">界面样式模仿微信客户端。</p>                               
+                                </div>
+                                <hr />
+                                <div className="works-footer">
+                                    <a href="https://zhangzhiguo010.github.io/WeChat-2018/build/index.html#/login"
+                                        target="_blank">
+                                        <div className="button">预览链接</div>
+                                    </a>
+                                    <a href="https://github.com/zhangzhiguo010/WeChat-2018" target="_blank">
+                                        <div className="button">源码链接</div>
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div className="img work3"></div>  
+                            <figcaption>
+                                <h3>小小画板</h3>
+                                <hr />
+                                <div className="descript">
+                                    <p>描述：</p>
+                                    <p className="descript-content">这是一个小小画板</p>
+                                    <p className="descript-content">它实现了在线画画，选择画笔颜色，粗细以及保存图画到本地等功能</p>
+                                    <p> 技术：</p>
+                                    <p className="descript-content">使用原生的Canvas标签</p>
+                                    <p> 亮点：</p>
+                                    <p className="descript-content">手机端、电脑端都可以使用哦！</p>                               
+                                </div>
+                                <hr />
+                                <div className="works-footer">
+                                    <a href="https://zhangzhiguo010.github.io/drawingBoard-2018-11/build/index.html" target="_blank">
+                                        <div className="button">预览链接</div>
+                                    </a>
+                                    <a href="https://github.com/zhangzhiguo010/drawingBoard-2018-11" target="_blank">
+                                        <div className="button">源码链接</div>
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div className="img work4"></div>
+                            <figcaption>
+                                <h3>动态生成皮卡丘</h3>
+                                <hr />
+                                <div className="descript">
+                                    <p>描述：</p>
+                                    <p className="descript-content">这是一只用css画的皮卡丘.</p>
+                                    <p className="descript-content">你可以看到皮卡丘的生成过程.</p>
+                                    <p> 技术：</p>
+                                    <p className="descript-content">使用CSS3动画。</p>
+                                    <p> 亮点：</p>
+                                    <p className="descript-content">这是一只萌萌的皮卡丘！</p>                               
+                                </div>
+                                <hr />
+                                <div className="works-footer">
+                                    <a href="https://zhangzhiguo010.github.io/pikachu-2018/build/index.html" target="_blank">
+                                        <div className="button">预览链接</div>
+                                    </a>
+                                    <a href="https://github.com/zhangzhiguo010/pikachu-2018" target="_blank">
+                                        <div className="button">源码链接</div>
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div className="img work5"></div>
+                            <figcaption>
+                                <h3>轮播图（自己封装的组件）</h3>
+                                <hr />
+                                <div className="descript">
+                                    <p>描述：</p>
+                                    <p className="descript-content">模仿爱奇艺的轮播图</p>
+                                    <p className="descript-content">它实现了自动轮播、鼠标移入悬停，移出继续自动播放等功能</p>
+                                    <p> 亮点：</p>
+                                    <p className="descript-content">我封装成了组件，调用函数传入控制参数即可使用</p>                               
+                                </div>
+                                <hr />
+                                <div className="works-footer">
+                                    <a href="https://zhangzhiguo010.github.io/scrollPicture-2018/index.html" target="_blank">
+                                        <div className="button">预览链接</div>
+                                    </a>
+                                    <a href="https://github.com/zhangzhiguo010/scrollPicture-2018" target="_blank">
+                                        <div className="button">源码链接</div>
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <div className="img work6"></div>
+                            <figcaption>
+                                <h3>小小导航</h3>
+                                <hr />
+                                <div className="descript">
+                                    <p>描述：</p>
+                                    <p className="descript-content">这是一个很简洁的导航页面</p>
+                                    <p> 亮点：</p>
+                                    <p className="descript-content">你可以根据自己喜好编辑各个按键访问的网站</p>                               
+                                </div>
+                                <hr />
+                                <div className="works-footer">
+                                    <a href="https://zhangzhiguo010.github.io/keyboard-2018/index.html" target="_blank">
+                                        <div className="button">预览链接</div>
+                                    </a>
+                                    <a href="https://github.com/zhangzhiguo010/keyboard-2018" target="_blank">
+                                        <div className="button">源码链接</div>
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
             </div>
         )
     }

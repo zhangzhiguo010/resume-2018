@@ -13,7 +13,7 @@ export default class TopNavBar extends Component{
                 ['card', '个人简介'],
                 ['require', '对标公司'],
                 ['skill', '技能补充'],
-                ['workItem', '项目作品'],
+                ['work', '项目作品'],
                 ['message', '留言板']
             ]
         }
