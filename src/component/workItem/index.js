@@ -15,7 +15,7 @@ export default class WorkItem extends Component{
                         <figure>
                             <div className="img work1"></div>
                             <figcaption>
-                                <h3>手机端网易云音乐(元素JavaScript)</h3>
+                                <h3>手机端网易云音乐(原生JavaScript)</h3>
                                 <hr />
                                 <div className="descript">
                                     <p>描述：</p>

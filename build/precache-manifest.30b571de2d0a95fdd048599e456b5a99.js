@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/163music.21cc930c.jpg"
   },
   {
-    "revision": "2cb311dcc676d17fe95a",
+    "revision": "37b8b1bf0627d087f176",
     "url": "/resume-2018/build/static/css/main.355a6fc6.chunk.css"
   },
   {
@@ -28,8 +28,12 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/简历-张治国-应聘前端开发-2018.b45b7519.pdf"
   },
   {
-    "revision": "2cb311dcc676d17fe95a",
-    "url": "/resume-2018/build/static/js/main.2cb311dc.chunk.js"
+    "revision": "37b8b1bf0627d087f176",
+    "url": "/resume-2018/build/static/js/main.37b8b1bf.chunk.js"
+  },
+  {
+    "revision": "5f123b0dce187a861766d35f91f57957",
+    "url": "/resume-2018/build/static/media/chat聊天.5f123b0d.jpg"
   },
   {
     "revision": "f6052f3ee40aa369cdd86fbc6b515b35",
@@ -40,19 +44,15 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/皮卡丘.9e9a0918.jpg"
   },
   {
-    "revision": "db19e935114a2ff701d6a63e91c820e8",
-    "url": "/resume-2018/build/static/media/keyboard.db19e935.jpg"
-  },
-  {
     "revision": "e90ab7eaa55a15ba6c991e840d4f8187",
     "url": "/resume-2018/build/static/media/轮播.e90ab7ea.jpg"
   },
   {
-    "revision": "5f123b0dce187a861766d35f91f57957",
-    "url": "/resume-2018/build/static/media/chat聊天.5f123b0d.jpg"
+    "revision": "db19e935114a2ff701d6a63e91c820e8",
+    "url": "/resume-2018/build/static/media/keyboard.db19e935.jpg"
   },
   {
-    "revision": "1f18647d8a51fa6f78ca61f80a794379",
+    "revision": "02a388bd671d6c0b1e9487e58d35fd3f",
     "url": "/resume-2018/build/index.html"
   }
 ];
