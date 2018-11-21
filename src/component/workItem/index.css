@@ -1,5 +1,4 @@
 .worksList{
-    // width: 1020px;
     margin: 40px auto;
 }
 .worksList > h2{
@@ -22,15 +21,11 @@
    width: 100%;
    height: 100%;
    display: flex;
-   /* flex-direction: row-reverse; */
    flex-wrap: wrap;
    align-items: flex-start;
    border:1px solid #ddd;
    background: #eee;
-//    background: #ffffff;
    overflow: hidden;
-   /* box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75); */
-
 }
 .worksList  ul > li  figure > div.img{
     margin-right: 20px;
@@ -40,9 +35,7 @@
     height: 100%;
     width: 30%;
     flex:0.3;
-    background: #aaa;
-    /* flex-basis: 50%; */
-   
+    background: #aaa;   
 }
 .worksList  ul > li  figure > div.img.work1{
     background:url(../../img/163music.jpg) center top no-repeat;
@@ -69,10 +62,7 @@
     background-size: cover;
 }
 .worksList  ul > li  figure > figcaption{
-   flex:0.7;
-   /* flex-basis: 50%; */
-   /* width: 50%; */
-    
+   flex:0.7;    
 }
 figure > figcaption h3{
     padding: 10px;
