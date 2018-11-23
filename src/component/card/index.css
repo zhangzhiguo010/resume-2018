@@ -10,7 +10,26 @@
             padding: 50px 50px 40px;
             background: #fff;
             display: flex;
-    
+            position: relative;
+            .blog{
+                // border: 1px solid red;
+                display: inline-block;
+                position: absolute;
+                z-index: 999;
+                right: 80px;
+                top: 50px;
+                transition: all 0.5s ease;
+                box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.53);
+                padding: 10px;
+                i{
+                    font-size: 100px;
+                    color: #e83c3f;
+                }
+            }
+            .blog:hover{
+
+                transform: rotate(360deg);
+            }
             .main_lf{
                 display: inline-block;
                 vertical-align: middle;

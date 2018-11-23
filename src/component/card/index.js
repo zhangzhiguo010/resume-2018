@@ -7,6 +7,9 @@ export default class Card extends Component{
         return (
             <div className='card_wrapper' id='card'>
                 <main>
+                    <a href='https://zhangzhiguo010.github.io/archives/' className='blog'>
+                        <i className="iconfont icon-blog"></i>
+                    </a>
                     <figure className='main_lf'>
                         <img src={require('../../img/mySelf_phpto.jpg')} alt="展示头像" />
                     </figure>
@@ -35,14 +38,8 @@ export default class Card extends Component{
                 </main>
 
                 <footer className="media">
-                    <a href="#">
+                    <a href="https://github.com/">
                         <i className="iconfont icon-github"></i>
-                    </a>
-                    <a href="#">
-                        <i className="iconfont icon-weibo"></i>
-                    </a>
-                    <a href="#">
-                        <i className="iconfont icon-qq"></i>
                     </a>
                 </footer>
             </div>

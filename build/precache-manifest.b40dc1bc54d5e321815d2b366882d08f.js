@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/163music.21cc930c.jpg"
   },
   {
-    "revision": "37b8b1bf0627d087f176",
-    "url": "/resume-2018/build/static/css/main.355a6fc6.chunk.css"
+    "revision": "b3ce6b0ae7c27ebe87b6",
+    "url": "/resume-2018/build/static/css/main.fb180d07.chunk.css"
   },
   {
     "revision": "d25e1298ea093a0d801b",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/简历-张治国-应聘前端开发-2018.b45b7519.pdf"
   },
   {
-    "revision": "37b8b1bf0627d087f176",
-    "url": "/resume-2018/build/static/js/main.37b8b1bf.chunk.js"
+    "revision": "b3ce6b0ae7c27ebe87b6",
+    "url": "/resume-2018/build/static/js/main.b3ce6b0a.chunk.js"
   },
   {
     "revision": "5f123b0dce187a861766d35f91f57957",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/build/static/media/keyboard.db19e935.jpg"
   },
   {
-    "revision": "02a388bd671d6c0b1e9487e58d35fd3f",
+    "revision": "bdeacb4547c092c534db8a86c7f624e0",
     "url": "/resume-2018/build/index.html"
   }
 ];
